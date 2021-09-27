@@ -40,7 +40,7 @@ class RestaurantServiceTest {
     }
     //<<<<<<<<<<<<<<<<<<<<SEARCHING>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-
+    //This Method is for calculating the value of item
     @Test
     public void fetching_price_for_more_than_one_item() throws restaurantNotFoundException {
         LocalTime openingTime = LocalTime.parse("10:30:00");
